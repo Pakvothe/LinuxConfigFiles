@@ -27,6 +27,7 @@ syntax enable
 set showmatch
 set laststatus=2
 set magic
+set encoding=UTF-8
 
 let g:coc_disable_startup_warning = 1
 
@@ -47,6 +48,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'gruvbox-community/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
 
 "Highlight
 Plug 'pangloss/vim-javascript'
